@@ -18,6 +18,7 @@ function FeedbackForm() {
       setBtnDisabled(false);
       setText(feedbackEdit.item.text);
       setRating(feedbackEdit.item.rating);
+      console.log("adrian test");
     }
   }, [feedbackEdit]);
 
